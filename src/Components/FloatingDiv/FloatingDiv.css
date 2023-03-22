@@ -1,0 +1,44 @@
+.floatingDiv{
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    width:fit-content;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    justify-content: center;
+    box-shadow: var(--boxShadow);
+    align-items: center;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.floatingDiv:hover{
+    background-color: black;
+}
+
+.floatingDiv>img{
+    display: flex;
+    width: 120px;
+    height: 80px;
+    margin-bottom: 0rem;
+    /* justify-content: space-between; */
+    align-items: center;
+    overflow: hidden;
+}
+.floatingDiv>span{
+    position: relative; 
+    display: flex;
+    /* justify-content: space-between; */
+    font-style: italic;
+    color: gray;
+    width: 100%;
+    overflow: hidden;
+    text-align: center; 
+    margin: 2 20px;
+    align-items: center;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+

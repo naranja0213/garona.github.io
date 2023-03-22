@@ -1,0 +1,19 @@
+.address{
+    color: rgb(104, 101, 101);
+    position: relative;
+    margin-top: 25rem;
+    display: flex;
+    
+}
+
+.email{
+    position: relative;
+    top: 17rem;
+    left: 2rem;
+}
+
+.footer-penal{
+    position:relative;
+  display:flex;
+  margin-top: -15rem;
+}

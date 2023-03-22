@@ -1,0 +1,12 @@
+.email2{
+    display: flex;
+    position: relative;
+    top:22rem;
+
+}
+
+.footer-contacto{
+    position:relative;
+  display:flex;
+  margin-top: -15rem;
+}

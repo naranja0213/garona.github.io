@@ -1,0 +1,21 @@
+.Footer{
+    display: flex;
+    background-color: rgb(247, 249, 251);
+    margin: 0;
+    top: -400px;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.footer-container{
+    display: flex;
+    position: relative;
+
+}
+
+.footer-container>ul{
+    display: flex;
+    gap: 1.3rem;
+    margin-right: 4rem;
+    
+}

@@ -1,0 +1,117 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 5rem;  /* 这里可以调整页面布局每个板块的高度 */
+    align-content: space-between; 
+}
+
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1px;
+    flex-direction: column;
+    gap: 2rem;
+    align-items:center;
+    
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.i-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+.i-name>:nth-child(2){
+    color: rgb(180, 174, 174);
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+.i-name>:nth-child(3){
+    color: rgb(180, 174, 174);
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+.i-button{
+    display: flex;
+    position:relative;
+    flex: 1px;
+    flex-direction:column;
+    align-items: center ;
+    width: 9rem;
+    height: 100px;
+    background: rgb(67, 63, 63);
+} 
+
+.i-icons{
+    display: flex;
+    flex: 1px;
+    position:relative;
+    right:45px;
+    gap: 0rem;
+    justify-content:  center ;
+}
+.i-con{
+    color: rgb(67, 63, 63);
+}
+
+.i-icons>*{
+    display: flex;
+    transform:scale(4.5);
+    position: relative;
+    margin-top: 2rem;
+    align-content: space-between;
+    text-decoration: none;
+    
+}
+
+.i-icons>:nth-child(2){
+    margin-left: 6rem;
+    text-decoration: none;
+    background: none;
+}
+/* .i-icons>{
+    text-decoration: none;
+} */
+
+.i-icons>*:hover{
+    cursor: pointer;
+    max-width:  100%;
+    max-height: 100%;
+
+}
+
+.i-right{
+    flex: 1;
+    position: relative;
+    z-index: 1;
+    border-radius: 100px;
+    transform: scale(0.5rem); 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    /* height: 650px; 
+    width: 50px; */
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+
+}
+/* .i-right>img{
+    display: flex;
+    transform: scale(0.5rem);
+} */
+
+
+.i-right>:nth-child(2){
+    max-width:  90%;
+  max-height: 90%;
+}
+

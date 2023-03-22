@@ -1,0 +1,7 @@
+.map{
+    display: flex;
+    transform: scale(2.2);
+    position:relative;
+    margin-left: 9rem;
+    margin-top: 7rem;
+}

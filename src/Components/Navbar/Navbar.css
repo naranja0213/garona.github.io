@@ -1,0 +1,202 @@
+.n-wrapper
+{
+    position: relative;
+    top: 15px;
+    /* margin: 5px; */
+    height: 15vh; 
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 245, 247);
+}
+
+.n-left{
+    flex: 1;
+    align-items:center;
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    top: 5px;
+    /* transform: scale(); */
+    
+}
+span{ 
+    flex: 1; 
+    align-items: right;
+    margin: 1rem;
+} 
+
+.n-home{
+    text-decoration:none;
+    /* flex-direction: column; */
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.n-penal{
+    text-decoration:none;
+    position: relative;
+    /* flex-direction: column; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.n-divorce{
+    position: relative;
+    text-decoration:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.n-civil{
+    text-decoration:none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.n-internacional{
+    text-decoration:none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.n-mercantil{
+    text-decoration:none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.n-despacho{
+    text-decoration:none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.n-contacto{
+    text-decoration:none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* 导航栏横向显示内容 */
+
+
+.n-name{
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    flex-grow: 1;
+    align-items: center;
+       
+}
+.n-name img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    transform: scale(0.5);
+    position: relative;
+}
+
+.n-right{
+    display: flex;
+    /* flex-direction: column; */
+    position: relative;
+    flex: 1;
+    align-items: center;
+    justify-content:center;
+    font-weight: 400;
+    text-decoration:none;
+}
+.n-list{
+    flex: 10;
+    margin-left: 4rem;
+    text-decoration:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    
+}
+
+.n-list>ul{
+    display: flex;
+    text-align: center;
+    text-decoration: column;
+    justify-content: space-between;
+    gap: 1.3rem;
+    margin-right: 4rem;
+    text-decoration:none;
+}
+
+
+.n-list>ul>li:hover{
+    border-bottom-left-radius: 50%;
+    cursor: pointer;
+    color: var(--orange);
+    
+    
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    margin: 0;
+    justify-content: center;
+    white-space: nowrap;
+    text-decoration: none;
+    
+  }
+
+.nav-link{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content:center;
+    /* border-bottom: none; */
+    /* flex-wrap: nowrap; */
+    text-decoration: none;
+    white-space: nowrap;
+    color :rgb(67, 63, 63);
+    background: rgb(67, 63, 63);
+}
+
+
+.n-button{
+   flex: 2; 
+   white-space: nowrap;
+   background: rgb(67, 63, 63);
+}
+
+.Button:hover{
+    background: #1e1f1f;
+    cursor: pointer;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+}
+

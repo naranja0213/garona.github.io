@@ -1,0 +1,53 @@
+/*set the Card style, postion have to set to absolute,insde the stuffs will be relative*/
+.card{
+    width: 14rem;
+    height: 22rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    /* align-items: center;  */
+    text-align:center;
+    background-color: rgba(170, 166, 166, 0.26);
+    border: 1px solid var(--gray);
+    
+}
+
+.card>:nth-child(1){
+    transform: scale(0.6);
+    margin: 2rem;
+    margin-top: 0rem;
+}
+
+
+.card>:nth-child(2){
+    margin: -1rem;
+    margin-top: -3rem;
+    color: var(--gray);
+    font-size: 20px;
+}
+.card>:nth-child(3){
+    /* top:0; */
+    margin: 2rem;
+    margin-top: 0rem; 
+    color: var(--gray);
+    font-size: 15px;
+}
+
+.c-button{
+    bottom: 40px;
+    left: 10px;
+    background-color:black;
+    box-shadow: 0px,19px,60px,rgba(0,0,0,0.08);
+    border-radius: 17px; 
+    border: none;
+    font-size:18px;
+    color: whitesmoke;
+}
+
+.c-button:hover{
+    background-color: rgb(105, 143, 176);
+    cursor: pointer;
+    font-size: 110%;
+}
+

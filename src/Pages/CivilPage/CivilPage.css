@@ -1,0 +1,13 @@
+.address{
+    color: rgb(104, 101, 101);
+    position: relative;
+    margin-top: 25rem;
+    display: flex;
+    
+}
+
+.footer-civil{
+    position:relative;
+  display:flex;
+  margin-top: -15rem;
+}
